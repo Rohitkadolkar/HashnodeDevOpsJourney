@@ -14,7 +14,7 @@ Started with learning basic commands in Linux and using them to get a better han
 
 Linux commands for =
 
-Checking your present working directory = "whoami"
+Checking your present working directory = "pwd"
 
 listing all the files or directories including hidden files = "ls -a"
 
