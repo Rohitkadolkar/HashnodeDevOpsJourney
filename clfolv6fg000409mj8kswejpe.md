@@ -1,8 +1,8 @@
 ---
-title: "#Day7 #90DaysofDevOps"
+title: "#Day7 #90DaysofDevOps Understanding Package Manager and Systemctl:"
 datePublished: Sat Mar 25 2023 23:31:35 GMT+0000 (Coordinated Universal Time)
 cuid: clfolv6fg000409mj8kswejpe
-slug: day7-90daysofdevops
+slug: day7-90daysofdevops-understanding-package-manager-and-systemctl
 tags: linux, devops, package-management
 
 ---
