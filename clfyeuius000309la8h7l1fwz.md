@@ -11,7 +11,7 @@ tags: linux, python, windows, devops
 
 Starting the basics of Python as it is also important for Devops Engineer to build the logic and Programs.
 
-### **What is Python?**
+## **What is Python?**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680379674548/cef0d51e-f31f-461e-a404-e6bff59df051.png align="center")
 
@@ -22,17 +22,17 @@ Starting the basics of Python as it is also important for Devops Engineer to bui
 * Python consists of vast libraries and various frameworks like Django,Tensorflow, Flask, Pandas, Keras etc.
     
 
-### Why Python?
+## Why Python?
 
 Python is a lot easier to code and learn. Python programs can be written on any plain text editor like ***notepad***, ***notepad++***, or anything of that sort. One can also use an [**online IDE for writing Python codes**](https://ide.geeksforgeeks.org/index.php) or can even install one on their system to make it more feasible to write these codes because IDEs provide a lot of features like intuitive code editor, debugger, compiler, etc.
 
-**How to Install Python?**
+## **How to Install Python?**
 
 You can install Python in your System whether it is window, MacOS, ubuntu, centos etc. Below are the links for the installation:
 
-* Windows Installation
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680379726422/3403742c-0a9a-43fb-8371-492cdcefca80.png align="left")
+### **Installation on Windows:**
+
+* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680380303594/a0a2bc24-0ff2-4c2b-9b7e-efcfacdb5a8e.png align="center")
     
 
 This can be done by following the step by step instructions provided below:
@@ -78,11 +78,9 @@ To verify the installation enter the following commands in your Terminal.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680377820613/807f5ec5-c513-42a2-99af-6ae69dc5e420.png align="center")
 
-**Linux Installation**
+### **Installation in linux(ubuntu):**
 
-Ubuntu:
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680379795176/dd1b3617-53c4-41b2-be86-929f6a67df0a.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680380490557/0852d20c-21d6-42a3-b881-ac9adc97403e.png align="center")
 
 Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, update your local package index:
 
@@ -114,7 +112,7 @@ To manage software packages for Python, let’s install **pip**, a tool that wil
 
 **Now, you have Python installed in your system!**
 
-### Read about different Data Types in Python.
+## Different Data Types in Python.
 
 There are several built-in data types used to represent different types of data:
 
@@ -132,13 +130,13 @@ There are several built-in data types used to represent different types of data:
     
     * **String:** in Python are arrays of bytes representing Unicode characters. A string is a collection of one or more characters put in a single quote, double-quote, or triple-quote. In python there is no character data type, a character is a string of length one. It is represented by str class.
         
-    * **List:** are just like arrays, declared in other languages which is an ordered collection of data. It is very flexible as the items in a list do not need to be of the same type.  
+    * **List:** are just like arrays, declared in other languages which is an ordered collection of data. It is very flexible as the items in a list do not need to be of the same type.
         
-    * **Tuple:** Just like a list, it is also an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable i.e. tuples cannot be modified after it is created. It is represented by a tuple class.  
+    * **Tuple:** Just like a list, it is also an ordered collection of Python objects. The only difference between a tuple and a list is that tuples are immutable i.e. tuples cannot be modified after it is created. It is represented by a tuple class.
         
-3. **Boolean Data type**: Data type with one of the two built-in values, True or False. Boolean objects that are equal to True are truthy (true), and those equal to False are falsy (false). But non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by the class bool. 
+3. **Boolean Data type**: Data type with one of the two built-in values, True or False. Boolean objects that are equal to True are truthy (true), and those equal to False are falsy (false). But non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by the class bool.
     
-    **Note** – True and False with capital ‘T’ and ‘F’ are valid booleans otherwise python will throw an error. 
+    **Note** – True and False with capital ‘T’ and ‘F’ are valid booleans otherwise python will throw an error.
     
 4. **Set Data type:** It is an unordered collection of data types that is iterable, mutable and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements.
     
