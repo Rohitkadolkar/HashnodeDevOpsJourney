@@ -1,8 +1,8 @@
 ---
-title: "Day 14 Task: Python Data Types and Data Structures for DevOps"
+title: "#Day14: Python Data Types and Data Structures for DevOps #90DaysofDevOps"
 datePublished: Mon Apr 03 2023 16:31:29 GMT+0000 (Coordinated Universal Time)
 cuid: clg11tlau000f0alagbz1hu9c
-slug: day-14-task-python-data-types-and-data-structures-for-devops
+slug: day14-python-data-types-and-data-structures-for-devops-90daysofdevops
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680539432098/7dd1ef59-b25a-4239-8e0e-0acb9a5763db.png
 tags: python, data-structures, python3, devops, data-types
 
