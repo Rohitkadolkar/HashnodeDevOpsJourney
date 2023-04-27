@@ -3,7 +3,7 @@ title: "#Day22 : Getting Started with Jenkins 😃"
 datePublished: Thu Apr 27 2023 21:22:14 GMT+0000 (Coordinated Universal Time)
 cuid: clgzmry1t000g09lebj8e5k1v
 slug: day22-getting-started-with-jenkins
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682630467758/834aa746-b159-44b8-aa68-0613579e66ff.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682630625473/871a802c-6a00-4bae-99ad-8cdedfdb9d8d.jpeg
 tags: devops, jenkins
 
 ---
