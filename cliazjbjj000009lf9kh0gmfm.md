@@ -25,38 +25,33 @@ You describe a desired state in a Deployment, and the Deployment Controller chan
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: todo-app
+  name: django-todo-deployment
+  namespace: django-todo-ns
+  labels:
+    app: django-todo
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
-      app: todo
+      app: django-todo
   template:
     metadata:
       labels:
-        app: todo
+        app: django-todo
     spec:
       containers:
-      - name: todo
-        image: rishikeshops/todo-app
-        ports:
-        - containerPort: 3000
-      # remove autoscaling from here
-  autoscaling:
-    enabled: true
-    minReplicas: 2
-    maxReplicas: 10
-    targetCPUUtilizationPercentage: 50
+      - name: django-todo
+        image: trainwithshubham/django-todo:latest
 ```
 
 * apply the deployment to your k8s (kubeadm) cluster by command `kubectl apply -f deployment.yml`
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682591360126/de975acb-a682-4afd-b797-c1f4b2971d81.png?auto=compress,format&format=webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685661130604/cb18acca-ae75-41eb-9e81-583522c1206e.png align="center")
 
 Verify it on node:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682591379241/894c0f78-65ab-4b63-b3c9-55c7f453ed7d.png?auto=compress,format&format=webp align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1685661162346/d70e5f82-b358-4fd8-b27f-04fe20d2e976.png align="center")
 
 ### **Detailed View of this code:**
 
