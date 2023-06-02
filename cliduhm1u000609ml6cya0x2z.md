@@ -3,6 +3,7 @@ title: "#Day33 : Working with Namespaces and Services in Kubernetes"
 datePublished: Fri Jun 02 2023 00:46:38 GMT+0000 (Coordinated Universal Time)
 cuid: cliduhm1u000609ml6cya0x2z
 slug: day33-working-with-namespaces-and-services-in-kubernetes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685666888926/aac86a08-c5a9-4c78-a6c0-ddaf3eefe545.png
 tags: kubernetes, devops
 
 ---
